@@ -1,0 +1,210 @@
+/*start main rules*/
+
+body {
+    font-family: arial,tahoma;
+    
+}
+.c2{
+    background-size: cover;
+}
+.cl {margin-top: 50px;}
+.navbar-inverse{
+    box-shadow: 0 2px 10px black;
+    background-color: white;
+   /* border: 2px solid #2222ff;*/
+    border: 2px solid #1c7edd;
+}
+.carousel-indicators li{
+    
+    height: 20px;
+    width: 20px;
+    border: 2px solid #aaa;
+}
+.carousel-indicators .active{
+    
+    height: 20px;
+    width: 20px;
+    border: 2px solid #aaa;
+    background-color: #2222ff;
+
+}
+.navbar-inverse .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: black
+    
+}
+.navbar-inverse .navbar-brand:hover{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.navbar-inverse .navbar-nav > li > a{
+    color:#0e8ce4;
+    font-size: 1.3em;
+    
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+    
+    color: white;
+    background-color: #0e8ce4;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+.carousel .carousel-inner img{
+	background-size: contain;
+	height: 530px;
+	width: 100%;
+}
+
+body {
+	background-color: #f4f4f4;
+	font-size: 16px;
+}
+h1{
+	font-size: 55px;
+	margin:40px 0;
+	font-weight: bold;
+	color: #666;
+}
+h1.h1s {
+	font-size: 55px;
+	margin:40px 0;
+	font-weight: bold;
+	color: white;
+}
+
+.s {
+    height: 500px;
+    
+}
+.bdelete {
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
+}
+/*end main rules*/
+
+
+
+/*start boostrap edit*/
+
+.navbar {
+	border-radius:0;
+	margin-bottom: 0; 
+}
+.nav>li >a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+.navbar-brand {
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:focus,
+  .navbar-inverse .navbar-nav > .open > a:hover,
+  .dropdown-menu  {
+        background-color: #3498db;
+}
+
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 16px;
+	border: none;
+	border-radius: 0;
+	
+}
+.dropdown-menu > li > a {
+	color:#fff;
+	padding: 10px 15px;
+
+}
+
+/*end boostrap edit*/
+
+/* start header*/
+.upper-bar {
+padding: 10px;
+background-color: #fff;
+}
+/* end header*/
+/* start login page*/
+
+.login-page form,
+.the-errors {
+	max-width: 380px;
+	margin: auto;
+}
+.login-page form input{
+	margin-bottom: 7px;
+}
+.login-page .selected {
+	color: #b22020;
+}
+.login-page h1 span {
+	cursor: pointer;
+}
+.login-page .signup{
+	display: none;
+}
+.the-errors .msg {
+	padding: 10px;
+	text-align: left;
+	border-left: 5px solid #cd6858;
+	background-color: #fff;
+	margin-bottom: 8px;
+	border-right:1px solid #e0e0e0; 
+	border-top:1px solid #e0e0e0; 
+	border-bottom:1px solid #e0e0e0; 
+	color: #919191;
+}
+
+.the-errors .error {
+	border-left:5px solid #cd6858; 
+}
+/* end login page*/
+
+
+/* start categories page */ 
+
+.item-box {
+	position: relative;
+
+}
+.item-box .price-tag {
+	background-color: #b4b4b4;
+	padding: 2px 10px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+/* end categories page */
+/* start profile page*/
+.information {
+	margin-top: 20px ;
+}
+.information ul {
+	padding: 0;
+	margin: 0;
+}
+.information ul li {
+	padding: 10px;
+	
+}
+.information ul li:nth-child(odd) {
+	background-color: #eee;
+}
+
+.information ul li span {
+	display: inline-block;
+	width: 130px;
+}
+
+/* end profile page*/
+

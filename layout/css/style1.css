@@ -1,0 +1,53 @@
+.footer{
+    height: 60px;
+    box-shadow: 0 2px 10px black;
+    margin-top: 50px;
+}
+.footer p{
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-left: 150px;
+    display: inline-block;
+}
+/*--------------------------Card--------------------------------*/
+.card{
+    border: 2px solid #0e8ce4;
+    border-radius: 10px;
+    margin: 50px 20% 50px 20%;
+}
+.card h1{
+    text-align: center;
+    font-size: 3em;
+}
+.card form{
+    margin-left: 85px; 
+}
+.card #input-field{
+    width: 625px;
+}
+.card #input-button{
+    margin:0 0 5px 160px; 
+    background-color: #0e8ce4;
+    color: white;
+    box-shadow: 0 2px 10px black;
+}
+.card input{
+    border: 2px solid #0e8ce4;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 1.5em;
+    padding-left: 5px;
+    margin: 5px;
+}
+.card .logos{
+    margin-left: 260px;
+}
+.card .logos li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.card .logos img{
+    width: 30px;
+}
